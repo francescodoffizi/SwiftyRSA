@@ -4,6 +4,9 @@ SwiftyRSA Changelog
 # [master]
 
 # [1.5.0]
+- Fix for UnsafePointer usage causing release issue in crypting/decrypting
+
+# [1.5.0]
 
  - Made compatible with Swift 4.2 and Xcode 10
  - Fixed a potential crash when building dictionaries with `CFString` values
@@ -117,6 +120,7 @@ We recommend to check out the new [usage instructions](./README.md) to migrate c
 Initial release.
 
 [master]: https://github.com/TakeScoop/SwiftyRSA/tree/master
+[1.5.1]: https://github.com/francescodoffizi/SwiftyRSA/releases/tag/1.5.1
 [1.5.0]: https://github.com/TakeScoop/SwiftyRSA/releases/tag/1.5.0
 [1.4.0]: https://github.com/TakeScoop/SwiftyRSA/releases/tag/1.4.0
 [1.3.0]: https://github.com/TakeScoop/SwiftyRSA/releases/tag/1.3.0
